@@ -34,3 +34,6 @@ The program shall time how long overall operation takes and how long the word co
 The program shall include any necessary instructions to properly run the program 
 
 The assignment shall be submitted through github 
+
+## Instructions
+run "python3 main.py"
