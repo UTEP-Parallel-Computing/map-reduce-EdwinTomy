@@ -36,6 +36,8 @@ if rank is 0:
             string = f.read()
             file_content.append(string.lower())
             f.close()
+    
+    # Updating individual word count
     for file in file_content:
         for word in WORD_KEYS:
             length = len(re.findall(word, file))
@@ -75,7 +77,7 @@ else:
             file_content.append(string.lower())
             f.close()
 
-    #
+    # Updating individual word count
     for file in file_content:
         for word in WORD_KEYS:
             length = len(re.findall(word, file))
