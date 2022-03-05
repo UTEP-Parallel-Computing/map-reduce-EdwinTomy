@@ -36,4 +36,4 @@ The program shall include any necessary instructions to properly run the program
 The assignment shall be submitted through github 
 
 ## Instructions
-run "python3 main.py"
+run "mpiexec -n {thread_num} python3 mainMPI.py", replacing thread_num with number of processes you want.
